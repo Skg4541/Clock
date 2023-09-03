@@ -13,7 +13,7 @@
   margin: 40px 240px;
   display: grid;
   gap: 16px 80px;
-  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
 }
 
 h1{
