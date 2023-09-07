@@ -1,8 +1,13 @@
+body{
+  background-color: black;
+}
+
 .item{
-  background-color: #f8ebeb;
+  color: #00fa00;
+  background-color: black;
   margin: 10px 10px;
   padding: 4px 4px;
-  border: 2px solid black;
+  border: 1px solid green;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -10,15 +15,17 @@
 }
 
 .container{
-  margin: 40px 240px;
+  margin: 140px 240px;
   display: grid;
   gap: 16px 80px;
   grid-template-columns: 2fr 1fr 1fr 2fr;
 }
 
 h1{
+  color: #00fa00;
+  margin: 70px 20px;
   display: flex;
   justify-content:center;
   align-items: center;
-  font-size: 40px;
+  font-size: 70px;
 }
